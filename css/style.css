@@ -10,17 +10,26 @@ h1{
     box-sizing: border-box;
     border: 2px;
     margin: 10px auto;
+    
 }
 body {
     font-family: 'Nunito', sans-serif;
     color: #384047;
+    background: linear-gradient(90deg, #e2157882, #5ab6da8c);
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
   }
   form {
     max-width: 480px;
     margin: 10px auto;
     padding: 10px 20px;
-    background: #26abd857;
+    background:white;
     border-radius: 8px;
+    box-shadow: 0 0 7px 0 #00000057;
+    
   }
   .box{
       padding: 10px;
@@ -34,6 +43,25 @@ textarea {
     width: 100%;
     padding: 12px 20px;
     border-radius: 4px;
-    background-color: #f8f8f8;
+    background-color: white;
     resize: none;
   }
+ button{
+    background-color: #9294996b;
+    width: 144px;
+    height: 50px;
+    margin: 0 auto;
+    display: block;
+    border: 1px solid black;
+    font-size: 17px;
+    border-radius: 4px;
+    cursor: pointer;
+    box-shadow: 0 0 7px 0 #00000057;
+    background: linear-gradient(90deg, #e2157882, #5ab6da8c);
+    
+}
+    
+button:hover {
+    background-color:#fff;
+    /* color: #fff; */
+}
